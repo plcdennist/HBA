@@ -39,9 +39,9 @@ public:
   {
     pose_size = 0;
     layer_num = 1;
-    max_iter = 10;
+    max_iter = 30;
     downsample_size = 0.1;
-    voxel_size = 4.0;
+    voxel_size = 2.0;
     eigen_ratio = 0.1;
     reject_ratio = 0.05;
     pose_vec.clear(); mthreads.clear(); pcds.clear();
