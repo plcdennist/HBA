@@ -41,8 +41,8 @@ public:
     layer_num = 1;
     max_iter = 30;
     downsample_size = 0.1;
-    voxel_size = 2.0;
-    eigen_ratio = 0.01;
+    voxel_size = 1.0;
+    eigen_ratio = 0.05;
     reject_ratio = 0.05;
     pose_vec.clear(); mthreads.clear(); pcds.clear();
     hessians.clear(); mem_costs.clear();
