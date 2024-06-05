@@ -1,7 +1,7 @@
 <launch>
   <node pkg="hba" type="hba" name="hba" output="screen">
     <param name="data_path" type="string" value="/root/data/"/>
-    <param name="total_layer_num" type="int" value="3"/>
+    <param name="total_layer_num" type="int" value="7"/>
     <param name="pcd_name_fill_num" type="int" value="0"/> <!--set 5 for kitti07 and 0 for park-->
     <param name="thread_num" type="int" value="16"/>
   </node>
